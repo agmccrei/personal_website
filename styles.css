@@ -1,0 +1,171 @@
+body {
+    font-family: Inter, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+     to bottom,
+     #ffffff 0%,       /* White starts at top */
+     #ffffff 48.5%,      /* Still white until 30% */
+     #232222 49.0%,      /* Black starts at 70% */
+     #000000 100%      /* Black ends at bottom */
+    );
+    min-height: 100vh;
+}
+
+header {
+    margin-top: 0; /* Push header down so it sits below the fixed .tab-buttons */
+    font-size: 1.3rem;
+    background: linear-gradient(to bottom, #000000 0%, #282727 60%, #4c4b4b 80%, #17171800 100%); /* Fades to transparent */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    font-size: 1.3rem;
+    padding: 20px;
+    color: white;
+}
+
+footer {
+    text-align: left;
+    padding: 20px;
+    background: linear-gradient(to top, #000000, #4484BA00); /* Fades into main above */
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+.center-text {
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.full-width {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.black-text {
+  color: #000000;
+}
+
+ul {
+  line-height: 1.1; /* smaller line spacing, default is ~1.4 - 1.6 */
+  padding-left: 20px; /* keep some indentation for bullets */
+}
+
+ul li {
+  margin-bottom: 4px; /* reduce space between list items */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #000000;
+}
+
+/* Container */
+.tabs {
+  background-color: black;
+  color: white;
+  max-width: none;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Tab buttons container */
+.tab-buttons {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 0;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;       /* span full width */
+  border-bottom: 2px solid #000000;
+  display: flex;
+  padding-left: 1rem;
+  z-index: 1000;     /* keep on top */
+  box-sizing: border-box; /* include padding in width */
+}
+
+/* Individual tab button */
+.tab-buttons button {
+  display: inline-block;
+  min-width: 120px; /* or adjust */
+  color: white;
+  flex: 1; /* distribute buttons evenly across full width */
+  text-align: center;
+  padding: 12px 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.3s, color 0.3s;
+  font-size: 1rem;
+}
+
+.tab-buttons button:hover {
+  background-color: #333; /* dark gray on hover */
+}
+
+.tab-buttons button.active {
+  background-color: #000000; /* slightly lighter when active */
+  border-color: #000000;
+  color: white;
+}
+
+/* Content sections */
+.tab-content {
+  background-color: #000000; /* dark gray on hover */
+  color: white; /* content text black for readability */
+  margin-top: 50px; /* to avoid overlap with fixed tabs */
+  width: 100%;
+  padding: 20px 40px; /* some horizontal padding */
+  border-color: black; /* change border color from #ccc (white/gray) to black */
+  box-sizing: border-box;
+}
+
+.tab-content > div {
+  display: none;
+}
+
+.tab-content > div.active {
+  display: block;
+}
+
+footer a {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 4px;
+  background-color: #444;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #777;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+footer a:hover {
+  background-color: #666;
+}

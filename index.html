@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandre Guet-McCreight</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tabs">
+        <div class="tab-buttons">
+            <button data-tab="research">Research Focus</button>
+            <button data-tab="education">Education</button>
+            <button data-tab="experience">Professional Experience</button>
+            <button data-tab="publications">Publications</button>
+            <button data-tab="awards">Awards</button>
+            <button data-tab="models">Code</button>
+        </div>
+
+        <div class="tab-content">
+            <div id="research">
+            <h2>Research Focus</h2>
+            <p  class="full-width">My research focuses on understanding the roles of key inhibitory interneurons in brain health and disease. During my PhD, I developed biophysical models of hippocampal interneurons, revealing their ion channel mechanisms, synaptic recruitment during behavior, and age-related changes. In my postdoctoral work, I created data-driven models of human cortical microcircuits to study aging and depression. Using these models, I uncovered how mechanistic changes impair sensory processing, tested novel therapeutic compounds for recovery <em>in silico</em>, and identified EEG biomarkers to monitor drug efficacy and cognitive impairment. Additionally, I leveraged these models and biomarkers to train artificial neural networks that predict mechanisms underlying microcircuit dysfunction in elderly patients using EEG data.</p>
+            <img src="images/Summary_english.png" alt="Research Summary" style="max-width:100%; height:auto;">
+            </div>
+            <div id="education">
+            <h2>Education</h2>
+            <p><strong><em>Ph.D. Physiology</em></strong> | Dr. Frances Skinner Lab, University of Toronto, Sep. 2015-Nov. 2019</p>
+            <p><strong><em>M.Sc. Physiology</em></strong> | Dr. Frances Skinner Lab, University of Toronto, Sep. 2013-Sep. 2015</p>
+            <p><strong><em>B.Sc. Highest Honors Neuroscience, Minor Chemistry</em></strong> | Carleton University, Ottawa, ON, 2009-2013</p>
+            </div>
+            <div id="experience">
+            <h2>Professional Experience</h2>
+            <p><strong><em>Postdoctoral Researcher</em></strong> | Dr. Etay Hay Lab, Krembil Centre for Neuroinformatics, CAMH, Dec. 2019 – Present</p>
+            <ul>
+                <li class="full-width">Built biophysical models of human cortical microcircuits using genetic optimization algorithms to study depression and aging, enabling virtual pharmacology and mechanistic insight into brain dysfunction.</li>
+                <li class="full-width">Simulated novel drug effects to evaluate dosage-dependent recovery of neural processing, supporting biomarker discovery and <em>in silico</em> drug screening.</li>
+                <li class="full-width">Developed ML models using simulated EEG features to predict depression severity and optimize therapeutic dosing (supporting a patent-pending tool).</li>
+                <li class="full-width">Modeled age-related changes in neuron physiology to uncover mechanisms driving altered cortical activity in older adults.</li>
+                <li class="full-width">Led algorithm development and integrative analysis combining EEG, electrophysiology, and transcriptomics datasets in collaboration with cross-disciplinary research teams.</li>
+                <li class="full-width">Secured fellowships and contributed to validating model predictions through collaborative studies.</li>
+            </ul>
+            <p><strong><em>Graduate Researcher</em></strong> | Dr. Frances Skinner Lab, Krembil Centre for Neuroscience, UHN, Sep. 2013 – Nov. 2019</p>
+            <ul>
+                <li class="full-width">Designed biophysical models of hippocampal disinhibitory interneurons (I-S3 cells) to uncover ion channel mechanisms of excitability and behavior-linked activation.</li>
+                <li class="full-width">Predicted synaptic recruitment of I-S3 cells during memory-relevant behaviors, where findings were validated <em>in vivo</em> by collaborators.</li>
+                <li class="full-width">Simulated downstream effects of I-S3 cells on synaptic targets (OLM cells) to quantify disinhibition-driven modulation of excitatory gating in hippocampal circuits.</li>
+                <li class="full-width">Collaborated on multi-study projects integrating computational and experimental work across aging, memory, and novelty encoding, contributing to several peer-reviewed publications.</li>
+            </ul>
+            </div>
+            <div id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li>Guet-McCreight A, et al. (2024). Therapeutic dose prediction of α5-GABA receptor modulation from simulated EEG of depression severity. Plos Comput Biol. DOI: <a href="https://doi.org/10.1371/journal.pcbi.1012693" target="_blank">10.1371/journal.pcbi.1012693</a>.</li>
+                <li>Guet-McCreight A, et al. (2024). In-silico testing of new pharmacology for restoring inhibition and human cortical function in depression. Commun Biol. DOI: <a href="https://doi.org/10.1038/s42003-024-05907-1" target="_blank">10.1038/s42003-024-05907-1</a>.</li>
+                <li>Tamboli S, Singh S, Topolnik D, Amine Barkat MEI, Radhakrishnan R, Guet-McCreight A, Topolnik L. (2024). Mouse hippocampal CA1 VIP interneurons detect novelty in the environment and support recognition memory. Cell Reports. 43(4):114115. DOI: <a href="https://doi.org/10.1016/j.celrep.2024.114115" target="_blank">10.1016/j.celrep.2024.114115</a>.</li>
+                <li>Mazza F, Guet-McCreight A, Prevot TD, Valiante TA, Sibille E, Hay E. (2024). EEG biomarkers of α5-GABA positive allosteric modulators in rodents. BP:GOS. DOI: <a href="https://doi.org/10.1016/j.bpsgos.2024.100435" target="_blank">10.1016/j.bpsgos.2024.100435</a>.</li>
+                <li>Mazza F, Guet-McCreight A, Valiante TA, Griffiths JD, Hay E. (2023). In-silico EEG biomarkers of reduced inhibition in human cortical microcircuits in depression. Plos Comput. Biol. DOI: <a href="https://doi.org/10.1371/journal.pcbi.1010986" target="_blank">10.1371/journal.pcbi.1010986</a>.</li>
+                <li>Chen Y, Hunter E, Arbabi K, Guet-McCreight A, Consens M, Felsky D, Sibille E, Tripathy SJ. (2023). Robust differences in cortical cell type proportions across healthy human aging inferred through cross-dataset transcriptome analyses. Neurobiol. Aging. DOI: <a href="https://doi.org/10.1016/j.neurobiolaging.2023.01.013" target="_blank">10.1016/j.neurobiolaging.2023.01.013</a>.</li>
+                <li>Guet-McCreight A, et al. (2022). Age-dependent increased sag amplitude in human pyramidal neurons dampens baseline cortical activity. Cereb. Cortex. DOI: <a href="https://doi.org/10.1093/cercor/bhac348" target="_blank">10.1093/cercor/bhac348</a>.</li>
+                <li>Yao HK*, Guet-McCreight A*, et al. (2022). Reduced inhibition in depression impairs stimulus processing in human cortical microcircuits. Cell Reports. 38(2). DOI: <a href="https://doi.org/10.1016/j.celrep.2021.110232" target="_blank">10.1016/j.celrep.2021.110232</a>. <em>Asterisk denotes authors who contributed equally to this work.</em></li>
+                <li>Howard D, Chameh HM, Guet-McCreight A, Hsiao HA, Vuong M, Seo YS, Shah P, Nigam A, Chen Y, Davie M, Hay E, Valiante TA, Tripathy S. (2022). An in vitro whole-cell electrophysiology dataset of human cortical neurons. GigaScience. DOI: <a href="https://doi.org/10.1093/gigascience/giac108" target="_blank">10.1093/gigascience/giac108</a>.</li>
+                <li>Guet-McCreight A, Skinner FK. (2021). Deciphering how interneuron specific 3 cells control oriens lacunosum-moleculare cells to contribute to circuit function. J. Neurophysiol. 126(4):997-1014. DOI: <a href="https://doi.org/10.1152/jn.00204.2021" target="_blank">10.1152/jn.00204.2021</a>.</li>
+                <li>Guet-McCreight A, Skinner FK. (2020). Computationally going where experiments cannot: a dynamical assessment of dendritic ion channel currents during in vivo-like states [version 2; peer review: 2 approved]. F1000Research. DOI: <a href="https://doi.org/10.12688/f1000research.22584.2" target="_blank">10.12688/f1000research.22584.2</a>.</li>
+                <li>Guet-McCreight A, Skinner FK, Topolnik L. (2020). Common Principles in Functional Organization of VIP/Calretinin Cell-Driven Disinhibitory Circuits Across Cortical Areas. Front. Neural Circuits. DOI: <a href="https://doi.org/10.3389/fncir.2020.00032" target="_blank">10.3389/fncir.2020.00032</a>. This article was included as part of the Frontiers in Neural Circuits - Editors Pick 2021 collection (<a href="https://www.frontiersin.org/research-topics/24497/frontiers-in-neural-circuits---editors-pick-2021" target="_blank">link</a>).</li>
+                <li>Luo X*, Guet-McCreight A*, et al. (2020). Synaptic Mechanisms Underlying the Network State-Dependent Recruitment of VIP-Expressing Interneurons in the CA1 Hippocampus. Cereb. Cortex. DOI: <a href="https://doi.org/10.1093/cercor/bhz334" target="_blank">10.1093/cercor/bhz334</a>. <em>Asterisk denotes authors who contributed equally to this work.</em></li>
+                <li>Francavilla R, Guet-McCreight A, Amalyan S, Hui CH, Topolnik D, Michaud F, Marino B, Tremblay ME, Skinner FK, Topolnik L. (2020). Alterations in intrinsic and synaptic properties of hippocampal CA1 VIP interneurons during aging. Front. Cell. Neurosci. DOI: <a href="https://doi.org/10.3389/fncel.2020.554405" target="_blank">10.3389/fncel.2020.554405</a>.</li>
+                <li>Sekulic V, Yi F, Garrett T, Guet-McCreight A, Lawrence JJ, Skinner FK. (2020). Integration of Within-Cell Experimental Data With Multi-Compartmental Modeling Predicts H-Channel Densities and Distributions in Hippocampal OLM Cells. Front. Cell. Neurosci. DOI: <a href="https://doi.org/10.3389/fncel.2020.00277" target="_blank">10.3389/fncel.2020.00277</a>.</li>
+                <li>Guet-McCreight A, Skinner FK. (2019). Using computational models to predict in vivo synaptic inputs to interneuron specific 3 (IS3) cells of CA1 hippocampus that also allow their recruitment during rhythmic states. PLoS One. DOI: <a href="https://doi.org/10.1371/journal.pone.0209429" target="_blank">10.1371/journal.pone.0209429</a>.</li>
+                <li>Guet-McCreight A, et al. (2016). Using a semi-automated strategy to develop multi-compartment models that predict biophysical properties of interneuron specific 3 (IS3) cells in hippocampus. eNeuro. DOI: <a href="https://doi.org/10.1523/ENEURO.0087-16.2016" target="_blank">10.1523/ENEURO.0087-16.2016</a>.</li>
+            </ul>
+            <h2>Preprints</h2>
+            <ul>
+                <li>Guet-McCreight A, Tripathy S, Sibille E, Hay E. Linking age changes in human cortical microcircuits to impaired brain function and EEG biomarkers. Biorxiv. DOI: <a href="https://doi.org/10.1101/2025.07.03.663090" target="_blank">10.1101/2025.07</a>.</li>
+                <li>Moghbel F, Hassan MT, Guet-McCreight A, Hay E. Deriving connectivity from spiking activity in biophysical cortical microcircuits. Biorxiv. DOI: <a href="https://doi.org/10.1101/2024.06.13.598937" target="_blank">10.1101/2024.06.13.598937</a>.</li>
+            </ul>
+            </div>
+            <div id="awards">
+            <h2>Awards</h2>
+            <ul>
+                <li>2024-2027 CIHR Fellowship - Priority Announcement: Aging (70,000/year)</li>
+                <li>2024-2026 Canadian Neuroanalytics Scholars Program ($70,000/year) - Declined</li>
+                <li>2023-2024 Labatt Family Research Fellowships in Depression Biology ($85,000)</li>
+                <li>2021-2022 Yuet Ngor Wong Award ($10,000)</li>
+                <li>2017-2019 NSERC CGS-D Scholarship ($35,000/year)</li>
+                <li>2016-2017 QEII-GSST Scholarship ($15,000)</li>
+                <li>2015-2016 QEII-GSST Scholarship ($15,000)</li>
+                <li>2015-2016 Unilever/Lipton OSOTF Graduate Fellowship ($2,000)</li>
+                <li>2013-2014 Mary H. Beatty Fellowship (Top-Up Award) ($5,000)</li>
+                <li>2013-2014 NSERC CGS-M Scholarship ($17,500)</li>
+                <li>2013   NSERC Undergraduate Student Research Award ($4,500)</li>
+                <li>2012-2013 Carleton Academic Scholarship ($2,500)</li>
+                <li>2011-2012 Carleton Academic Scholarship ($2,500)</li>
+                <li>2010-2011 Michael Oliver Scholarship ($2,500)</li>
+                <li>2010-2011 OUA Academic Achievement Award ($2,500)</li>
+                <li>2009-2010 Sprott Bursary ($4,500)</li>
+                <li>2009-2010 Doctor E. Bruce Tovee Award ($1,500)</li>
+                <li>2009-2013 Carleton University Dean’s Honor List</li>
+            </ul>
+            </div>
+            <div id="models">
+            <h2>Code</h2>
+            <ul>
+                <li>Human L2/3 Cortical Circuit Model for Therapeutic Dose Prediction of New Pharmacology in Depression (Lead Developer). 
+                    URL: <a href="https://github.com/agmccrei/HumanL23Circuit_a5PAM_DosePrediction" target="_blank" rel="noopener noreferrer">GitHub Repo</a>. 
+                    Associated publication DOI: <a href="https://doi.org/10.1371/journal.pcbi.1012693" target="_blank" rel="noopener noreferrer">10.1371/journal.pcbi.1012693</a>.
+                </li>
+                <li>Human L2/3 Cortical Circuit Model for Testing New Pharmacology in Depression (Lead Developer). 
+                    URL: <a href="https://github.com/agmccrei/HumanL23Circuit_a5PAM_AGM2023" target="_blank" rel="noopener noreferrer">GitHub Repo</a>. 
+                    Associated publication DOI: <a href="https://doi.org/10.1038/s42003-024-05907-1" target="_blank" rel="noopener noreferrer">10.1038/s42003-024-05907-1</a>.
+                </li>
+                <li>Human L5 Cortical Microcircuit models (Lead Developer). 
+                    URL: <a href="http://modeldb.science/267587" target="_blank" rel="noopener noreferrer">ModelDB</a>. 
+                    Associated publication DOI: <a href="https://doi.org/10.1093/cercor/bhac348" target="_blank" rel="noopener noreferrer">10.1093/cercor/bhac348</a>.
+                </li>
+                <li>Human L2/3 Cortical Microcircuit models (Co-developer). 
+                    URL: <a href="http://modeldb.science/267595" target="_blank" rel="noopener noreferrer">ModelDB</a>. 
+                    Associated publication DOI: <a href="https://doi.org/10.1016/j.celrep.2021.110232" target="_blank" rel="noopener noreferrer">10.1016/j.celrep.2021.110232</a>.
+                </li>
+                <li>CA1 Hippocampal Oriens Lacunosum Moleculare Interneuron rhythmic control simulations (Lead Developer). 
+                    URL: <a href="https://github.com/FKSkinnerLab/OLM_IS3control" target="_blank" rel="noopener noreferrer">GitHub Repo</a>. 
+                    Associated publication DOI: <a href="https://doi.org/10.1152/jn.00204.2021" target="_blank" rel="noopener noreferrer">10.1152/jn.00204.2021</a>.
+                </li>
+                <li>CA1 Hippocampal Oriens Lacunosum Moleculare Interneuron in vivo virtual neural network simulations (Lead Developer). 
+                    URL: <a href="http://modeldb.science/266526" target="_blank" rel="noopener noreferrer">ModelDB</a>. 
+                    Associated publication DOI: <a href="https://doi.org/10.12688/f1000research.22584.2" target="_blank" rel="noopener noreferrer">10.12688/f1000research.22584.2</a>.
+                </li>
+                <li>CA1 Hippocampal Oriens Lacunosum Moleculare Interneuron models (Co-developer). 
+                    URL: <a href="https://github.com/FKSkinnerLab/OLMng" target="_blank" rel="noopener noreferrer">GitHub Repo</a>. 
+                    Associated publication DOI: <a href="https://doi.org/10.3389/fncel.2020.00277" target="_blank" rel="noopener noreferrer">10.3389/fncel.2020.00277</a>.
+                </li>
+                <li>CA1 Hippocampal Interneuron Specific 3 Interneuron in vivo virtual neural network simulations (Lead Developer). 
+                    URL: <a href="https://modeldb.science/265523" target="_blank" rel="noopener noreferrer">ModelDB</a>. 
+                    Associated publication DOI: <a href="https://doi.org/10.1093/cercor/bhz334" target="_blank" rel="noopener noreferrer">10.1093/cercor/bhz334</a>.
+                </li>
+                <li>CA1 Hippocampal Interneuron Specific 3 Interneuron models (Lead Developer). 
+                    URL: <a href="https://modeldb.science/223031" target="_blank" rel="noopener noreferrer">ModelDB</a>. 
+                    Associated publication DOI: <a href="https://doi.org/10.1523/ENEURO.0087-16.2016" target="_blank" rel="noopener noreferrer">10.1523/ENEURO.0087-16.2016</a>.
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const tabButtons = document.querySelectorAll('.tab-buttons button');
+        const tabContents = document.querySelectorAll('.tab-content > div');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const tab = button.dataset.tab;
+                const content = document.getElementById(tab);
+
+                const isActive = button.classList.contains('active');
+
+                if (isActive) {
+                // If clicked tab is already active, close it
+                button.classList.remove('active');
+                content.classList.remove('active');
+                } else {
+                // Otherwise, close all tabs first
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                tabContents.forEach(c => c.classList.remove('active'));
+
+                // Open clicked tab
+                button.classList.add('active');
+                content.classList.add('active');
+                }
+            });
+        });
+    </script>
+    <header>
+        <h1>Alexandre Guet-McCreight, PhD</h1>
+    </header>
+    <main>
+        <section>
+            <h2 class="center-text black-text">Computational Scientist</h2>
+            <img src="images/logo.jpg" alt="photo">
+            <p class="full-width">Computational researcher with 10+ years of experience applying data analytics, modeling, machine learning,
+and bioinformatics to advance translational research in neurobiology, brain health, and aging. Demonstrated
+success in developing predictive models of EEG and single-cell data, leading algorithm development, and
+simulating pharmacological effects in cortical microcircuits. Expert-level programming skills with strong
+proficiency in large-scale data analysis. Proven track record of peer-reviewed publications, collaborative patent
+applications, and competitive research grants reflecting high-impact scientific innovation.</p>
+        </section>
+        <section>
+            <h2>HIGHLIGHT SKILLS</h2>
+            <ul>
+            <li><strong><em>Programming:</em></strong> Python, R, MATLAB, Bash, Git/GitHub, HOC (C-based), TensorFlow, Scikit-learn</li>
+            <li><strong><em>Machine Learning:</em></strong> Neural networks, support vector machines, explainable AI, model optimization</li>
+            <li><strong><em>Analytical Methods:</em></strong> Biophysical simulations, time-series analysis, biostatistics, among others</li>
+            <li><strong><em>Data Analysis:</em></strong> EEG, calcium imaging, single-cell & multi-electrode electrophysiology, snRNA-seq</li>
+            <li><strong><em>Domain Areas:</em></strong> Computational neuroscience, neural modeling, bioinformatics, translational neuroscience, biomarkers</li>
+            <li><strong><em>Languages:</em></strong> Bilingual – English and French</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Alexandre Guet-McCreight</p>
+        <a href="https://www.linkedin.com/in/alexandre-guet-mccreight-11014766/" style="all: unset; color: rgb(80, 129, 235); text-decoration: underline; cursor: pointer;">linkedin</a>
+        <p>
+            <a href="index.html">English</a>
+            <a href="index_fr.html">Français</a>
+        </p>
+    </footer>
+</body>
+</html>
