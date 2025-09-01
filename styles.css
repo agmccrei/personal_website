@@ -143,6 +143,18 @@ html, body {
   font-size: 1rem;
 }
 
+@media screen and (max-width: 768px) {
+  .tab-buttons button {
+    min-width: auto;   /* allow shrinking */
+    padding: 8px 5px;  /* reduce padding */
+    font-size: 0.9rem; /* optional: smaller font */
+  }
+
+  .tab-buttons {
+    padding-left: 0.5rem; /* less left padding */
+  }
+}
+
 .tab-buttons button:hover {
   background-color: #333; /* dark gray on hover */
 }
