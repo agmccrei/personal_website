@@ -167,7 +167,8 @@ html, body {
 
 @media screen and (max-width: 768px) {
   .tab-content {
-    padding: 20px 10px; /* keep vertical padding, reduce horizontal */
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
