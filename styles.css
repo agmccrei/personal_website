@@ -12,6 +12,19 @@ body {
     min-height: 100vh;
 }
 
+/* Adjust the gradient for smaller screens */
+@media screen and (max-width: 768px) {
+  body {
+    background: linear-gradient(
+      to bottom,
+      #ffffff 0%,
+      #ffffff 20.5%,     /* Starts fading earlier */
+      #232222 21%,
+      #000000 100%
+    );
+  }
+}
+
 header {
     margin-top: 0; /* Push header down so it sits below the fixed .tab-buttons */
     font-size: 1.3rem;
