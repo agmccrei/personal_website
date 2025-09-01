@@ -22,6 +22,7 @@ body {
       #232222 21%,
       #000000 100%
     );
+    min-height: 150vh;
   }
 }
 
@@ -87,9 +88,6 @@ ul li {
 html, body {
   margin: 0;
   padding: 0;
-}
-
-html {
   background-color: #000000;
 }
 
