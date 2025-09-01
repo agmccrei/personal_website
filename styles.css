@@ -173,15 +173,6 @@ html, body {
   display: block;
 }
 
-@media screen and (max-width: 768px) {
-  .tab-content > div {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
 footer a {
   display: inline-block;
   padding: 6px 12px;
