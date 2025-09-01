@@ -4,10 +4,9 @@ body {
     padding: 0;
     background: linear-gradient(
      to bottom,
-     #ffffff 0%,       /* White starts at top */
-     #ffffff 48.5%,      /* Still white until 30% */
-     #232222 49.0%,      /* Black starts at 70% */
-     #000000 100%      /* Black ends at bottom */
+     #171616 0%,
+     #1f1e1e 15%,
+     #121212 100%
     );
     min-height: 100vh;
 }
@@ -17,10 +16,9 @@ body {
   body {
     background: linear-gradient(
       to bottom,
-      #ffffff 0%,
-      #ffffff 20.5%,     /* Starts fading earlier */
-      #232222 21%,
-      #000000 100%
+      #171616 0%,
+      #1f1e1e 15%,
+      #121212 100%
     );
     min-height: 150vh;
   }
@@ -29,7 +27,7 @@ body {
 header {
     margin-top: 0; /* Push header down so it sits below the fixed .tab-buttons */
     font-size: 1.3rem;
-    background: linear-gradient(to bottom, #000000 0%, #282727 60%, #4c4b4b 80%, #17171800 100%); /* Fades to transparent */
+    background: linear-gradient(to bottom, #000000 0%, #1e1d1d 100%);
     color: white;
     padding: 20px 0;
     text-align: center;
