@@ -165,19 +165,21 @@ html, body {
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
-  .tab-content {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
 .tab-content > div {
   display: none;
 }
 
 .tab-content > div.active {
   display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .tab-content > div {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 footer a {
