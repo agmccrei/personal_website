@@ -144,12 +144,6 @@ html, body {
   font-size: 1rem;
 }
 
-@media screen and (max-width: 768px) {
-  .tab-content {
-    padding: 20px 10px; /* keep vertical padding, reduce horizontal */
-  }
-}
-
 .tab-buttons button:hover {
   background-color: #333; /* dark gray on hover */
 }
@@ -169,6 +163,12 @@ html, body {
   padding: 20px 40px; /* some horizontal padding */
   border-color: black; /* change border color from #ccc (white/gray) to black */
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .tab-content {
+    padding: 20px 10px; /* keep vertical padding, reduce horizontal */
+  }
 }
 
 .tab-content > div {
