@@ -62,9 +62,10 @@ img {
 
 @media screen and (max-width: 768px) {
   img {
-    max-width: 90%; /* or even 100% if you want full width */
-    margin-left: 0;
-    margin-right: 0;
+    max-width: 70%; /* or even 100% if you want full width */
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* important to make margin auto work */
   }
 }
 
@@ -144,14 +145,8 @@ html, body {
 }
 
 @media screen and (max-width: 768px) {
-  .tab-buttons button {
-    min-width: auto;   /* allow shrinking */
-    padding: 8px 5px;  /* reduce padding */
-    font-size: 0.9rem; /* optional: smaller font */
-  }
-
-  .tab-buttons {
-    padding-left: 0.5rem; /* less left padding */
+  .tab-content {
+    padding: 20px 10px; /* keep vertical padding, reduce horizontal */
   }
 }
 
